@@ -1,0 +1,130 @@
+/* Reset defaults and set base styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background to contrast elements */
+    color: #2c3e50; /* Dark text for readability */
+}
+
+/* Header styling with Box Model */
+header {
+    background-color: #3498db; /* Blue background to define header box */
+    color: white;
+    padding: 15px; /* Internal spacing for content */
+    text-align: center;
+    border-bottom: 3px solid #2980b9; /* Border to outline bottom */
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2.2rem;
+    margin: 0; /* No margin to fit within header padding */
+}
+
+/* Navigation styling with flex layout and Box Model */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0; /* Margin below heading */
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 8px; /* Spacing between nav items */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px; /* Padding for button-like boxes */
+    border: 1px solid #ecf0f1; /* Light border to define box */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #2980b9; /* Darker blue for nav boxes */
+}
+
+nav a:hover {
+    background-color: #1f618d; /* Hover effect for interactivity */
+}
+
+/* Intro section styling with Box Model */
+.intro {
+    margin: 15px auto; /* External spacing and centering */
+    max-width: 700px; /* Limit width for box size */
+    padding: 12px; /* Internal spacing */
+    background-color: #ecf0f1; /* Light background to show box */
+    border: 2px dotted #bdc3c7; /* Dotted border for variety */
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 1.6rem;
+    margin: 0 0 8px; /* Bottom margin for spacing */
+    color: #3498db; /* Blue to match theme */
+}
+
+.intro p {
+    font-size: 1rem;
+    margin: 0; /* Rely on section padding */
+}
+
+/* Container for cards with flex layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Responsive wrapping */
+    margin: 15px auto; /* Center and space container */
+    max-width: 1000px; /* Limit layout width */
+    padding: 0 10px; /* Side padding */
+}
+
+/* Card styling - primary Box Model demonstration */
+.card {
+    background-color: white; /* White background to contrast body */
+    width: 23%; /* Relative width for cards */
+    min-width: 200px; /* Minimum for small screens */
+    margin: 10px; /* External spacing between cards */
+    padding: 15px; /* Internal spacing for content */
+    border: 1px solid #bdc3c7; /* Gray border to outline box */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    margin: 0 0 10px; /* Bottom margin for spacing */
+    color: #3498db; /* Blue heading */
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin: 0 0 12px; /* Bottom margin for spacing */
+}
+
+.card button {
+    background-color: #2ecc71; /* Green background for button box */
+    color: white;
+    padding: 8px 15px; /* Padding for button size */
+    border: none; /* No border to contrast with other elements */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicates clickability */
+}
+
+.card button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Footer styling with Box Model */
+footer {
+    background-color: #3498db; /* Blue to match header */
+    color: white;
+    padding: 10px; /* Internal spacing */
+    margin-top: 15px; /* Space above footer */
+    border-top: 3px solid #2980b9; /* Top border to outline */
+    text-align: center;
+}
+
+footer p {
+    margin: 0; /* Fit within footer padding */
+}
